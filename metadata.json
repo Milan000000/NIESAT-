@@ -1,0 +1,7 @@
+{
+  "name": "N.I.E.S.A.T CDS Portal",
+  "description": "Nigerian Innovation Engineers, Scientists and Applied Technologists - NYSC CDS official group portal for project management, member directory, and community requests.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

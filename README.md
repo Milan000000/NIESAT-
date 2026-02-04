@@ -1,11 +1,36 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# N.I.E.S.A.T CDS Portal
 
-  <h1>Built with AI Studio</h2>
+Nigerian Innovation Engineers, Scientists and Applied Technologists - official MVP website for the NYSC Community Development Service (CDS) group.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Features
+- **Project Directory**: Showcase of engineering interventions.
+- **Member Management**: List of Executives and General Members.
+- **Resource Center**: Repository for learning materials.
+- **Community Requests**: Form for the public to submit technological needs.
+- **Staff Portal**: Admin dashboard protected by password (`milan000000`).
+- **Dark Mode**: Support for system and manual dark mode preference.
+- **LocalStorage Storage**: Purely frontend, no server required.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Technical Details
+- **Framework**: React 18+
+- **Styling**: Tailwind CSS
+- **Routing**: React Router (HashRouter for static hosting)
+- **Database**: LocalStorage
 
-</div>
+## How to Edit Content
+1. **Initial Data**: Modify `constants.tsx` to change default projects and members.
+2. **Persistence**: The app automatically uses LocalStorage. To reset, clear your browser's site data.
+3. **Staff Access**: Use the password `milan000000` on the `/staff` route.
+
+## Deployment
+### GitHub Pages
+1. Push this code to a GitHub repository.
+2. Go to Settings > Pages.
+3. Select the branch (usually `main`) and the root directory.
+4. Save, and your site will be live at `https://<username>.github.io/<repo-name>/`.
+
+### Vercel
+1. Connect your GitHub repository to Vercel.
+2. Vercel will auto-detect the configuration and deploy.
+3. Use the generated URL.
